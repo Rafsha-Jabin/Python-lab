@@ -1,0 +1,37 @@
+Experiment 3: Write a program to implement string operations.
+
+string1 = input("Enter the first string: ")
+string2 = input("Enter the second string: ")
+
+print("Uppercase = ", string1.upper())
+print("Lowercase = ", string1.lower())
+
+concat = string1 + " " + string2
+print("Concatenated string: ", concat)
+
+print("Capitalized string: ", string1.capitalize())
+
+print("Splitting: ", string1.split("f"))
+
+print("Sliced string: ", string1[0:3])
+
+print("Replaced char: ", string1.replace("r", "R"))
+
+print("String length: ", len(string2))
+
+print("String finding: ", string2.find("b"))
+
+print("Title: ", string2.title())
+
+print("First character of string1: ", string1[0])
+print("Last character of string1: ", string1[-1])
+
+print("Count of letter 'a' in string1: ", string1.count("a"))
+
+print("Swapcase: ", string1.swapcase())
+
+search = input("Enter the word to be searched: ")
+if search in string1:
+    print("Word found")
+else:
+    print("Word not found")
