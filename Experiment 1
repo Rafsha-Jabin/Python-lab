@@ -38,8 +38,8 @@ print(x - y == (x ^ (x & y)) - (y ^ (x & y)))
 print(x - y == ((x | y) ^ y) - (y ^ (x & y)))
 
 OUTPUT:
-Enter the value for x:15 
-Enter the value for y:10
+Enter the value for x:78
+Enter the value for y:908
 
 Equation Assignment Operators:
 True
@@ -62,3 +62,5 @@ True
 True
 True
 True
+
+=== Code Execution Successful ===
