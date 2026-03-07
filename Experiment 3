@@ -24,7 +24,7 @@ STEP 18 : Check whether the entered word is present in the first string.
          > Otherwise, display "Word not found".
 STEP 19 : Stop the program.
 
-PROGRAM:
+SOURCE CODE :
 # Taking input from the user
 string1 = input("Enter the first string: ")
 string2 = input("Enter the second string: ")
