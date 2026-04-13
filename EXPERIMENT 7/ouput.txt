@@ -1,5 +1,18 @@
 OUTPUT:
-Student Name: Rahul
+
+Student Details
+Name : Rahul
+Age  : 20
 Marks: 85
-Grade: B
+Grade : B
+Result: Pass
+
+Student Details
+Name : Anjali
+Age  : 19
+Marks: 92
+Grade : A
+Result: Pass
+
+
 
