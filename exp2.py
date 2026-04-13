@@ -1,3 +1,4 @@
+PROGRAM:
 for player in range(1, 6):
     print("\nEnter details for Player", player)
 
