@@ -1,0 +1,10 @@
+ALGORITHM:
+Step 1 : Start the program.
+Step 2 : Define a class named Student.
+Step 3 : Declare a constructor __init__() to initialize student name and marks.
+Step 4 : Create a method display() to show student details.
+Step 5 : Create a method grade() to calculate and display grade.
+Step 6 : Create an object s1 of class Student with values name and marks.
+Step 7 : Access object data using methods display() and grade().
+Step 8 : Display the student details and grade on the screen.
+Step 9 : Stop the program.
