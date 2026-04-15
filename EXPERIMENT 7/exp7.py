@@ -1,17 +1,24 @@
-class Student:
-    def __init__(self, name, age, marks):
+# Base Class
+class Person:
+    def __init__(self, name, age):
         self.name = name
         self.age = age
-        self.marks = marks
 
-    # Method to display details
-    def display(self):
-        print("\nStudent Details")
+    def show_person(self):
         print("Name :", self.name)
         print("Age  :", self.age)
+
+
+# Derived Class
+class Student(Person):
+    def __init__(self, name, age, marks):
+        super().__init__(name, age)
+        self.marks = marks
+
+    def show_student(self):
+        self.show_person()
         print("Marks:", self.marks)
 
-    # Method to calculate grade
     def grade(self):
         if self.marks >= 90:
             return "A"
@@ -22,24 +29,25 @@ class Student:
         else:
             return "Fail"
 
-    # Method to check pass/fail
-    def is_pass(self):
+    def result(self):
         if self.marks >= 50:
             return "Pass"
         else:
             return "Fail"
 
 
-# Creating objects
-s1 = Student("Rahul", 20, 85)
-s2 = Student("Anjali", 19, 92)
+# Creating Objects
+s1 = Student("ZAY", 20, 85)
+s2 = Student("ANNA", 19, 92)
 
-# Displaying details for Student 1
-s1.display()
+# Student 1 Details
+print("\nStudent 1 Details")
+s1.show_student()
 print("Grade :", s1.grade())
-print("Result:", s1.is_pass())
+print("Result:", s1.result())
 
-# Displaying details for Student 2
-s2.display()
+# Student 2 Details
+print("\nStudent 2 Details")
+s2.show_student()
 print("Grade :", s2.grade())
-print("Result:", s2.is_pass())
+print("Result:", s2.result())
