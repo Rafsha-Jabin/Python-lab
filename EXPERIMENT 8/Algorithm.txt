@@ -1,3 +1,6 @@
+PROBLEM STATEMENT:
+Implement ‘re’ module in python
+
 ALGORITHM:
 Step 1 : Start the program.
 Step 2 : Import the re module.
