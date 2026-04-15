@@ -1,5 +1,7 @@
-Algorithm
+PROBLEM STATEMENT:
+a) Write a program to implement numpy and pandas packages.
 
+ALGORITHM:
 Step 1 : Start the program.
 Step 2 : Import numpy and pandas.
 Step 3 : Create two NumPy arrays.
