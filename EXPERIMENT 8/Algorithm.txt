@@ -1,5 +1,4 @@
-Algorithm
-
+ALGORITHM:
 Step 1 : Start the program.
 Step 2 : Import the re module.
 Step 3 : Accept an email text from the user.
