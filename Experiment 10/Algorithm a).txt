@@ -1,5 +1,7 @@
-Algorithm :
+PROBLEM STATEMENT:
+a. Write Program to Load, Clean and Exploring the data using python.
 
+Algorithm :
 1.Start
 2.Import pandas library
 3.Read the dataset from CSV file using read_csv()
