@@ -1,5 +1,7 @@
-Algorithm:
+PROBLEM STATEMENT:
+b. Write a Program to implement various types of visualization in python.
 
+Algorithm:
 step 1 : Start
 step 2 : Import pandas and matplotlib libraries
 step 3 : Create or load dataset
